@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.gameContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.search {
+  margin: 10px;
+}

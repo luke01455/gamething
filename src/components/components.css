@@ -1,0 +1,51 @@
+.gameList {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    margin-bottom: 5px;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.categoryContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.categoryList {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category {
+  cursor: pointer;
+  background-color: rgba(188,188,235,0.85);
+  width: 20%;
+}
+
+@media only screen and (max-width: 1450px) {
+  .gameList {
+    width: 32%;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .gameList {
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .gameList {
+    width: 96%;
+  }
+}
